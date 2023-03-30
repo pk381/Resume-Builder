@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+  }
+  .text
+    {
+      display: block;
+      
+        font-size: 4vh;
+        margin-left: 40vh;
+        text-decoration: none;
+        width: 111vh;
+    }
+    #text a{
+
+      display: block;
+      text-decoration: none;
+      color: rgb(52, 23, 149);
+      border: 1px solid rgb(118, 9, 18);
+      border-radius: 2vh;
+      padding: 5px 34px;
+      background-color: rgb(233, 184, 206);
+    }
+body
+  {
+    background-image: url('img/background.jpg');
+   background-size: cover;
+   height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family:  montserrat;
+    align-items: center;
+  }
+
+  #box{
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  #reg{
+    margin-top: 50px;
+  
+    width: 100%;
+    display: block;
+    align-items: center;
+    padding-top: 8px;
+    text-align: center;
+    height: 45px;
+  }
+  #reg a{
+  color: black;
+  text-decoration: none;
+
+  padding: 9px 12px;
+  font-weight: bold;
+   font-size: 28px;
+   width: 25%;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   margin: 14px 42px;
+   background-color: #47AB11;
+   border: 1px solid black;
+   border-radius: 1vh;
+  }
+
+  .menu-bar
+  {
+    background-color:rgb(41 155 139);
+    text-align: right;
+  }
+  
+  .menu-bar ul
+  {
+    display: inline-flex;
+    list-style: none;
+    color: #fff; 
+    margin-right: 5vh;
+  }
+  .menu-bar ul li 
+  {
+   
+    width: 12.5vh;
+    margin: 1.25vh;
+    padding: 2vh;
+  }
+
+  .menu-bar ul li a
+  {
+    text-decoration: none;
+    /* text-align: center; */
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+
+  }
+  .menu-bar ul li:hover
+  {
+    background-color: #0dab99;
+    border-radius: 0.5vh;
+    text-align: center;
+  }
+
+  .members
+  {
+    padding-top: 5cm;
+    margin-left: 60vh;
+  }
+  .menu-bar ul li:hover .members
+  {
+    display: block;
+    position: absolute;
+    background-color: #0dab99;
+    margin-top: 2vh;
+    margin-left: -2vh;
+  }
+    .menu-bar ul li:hover .members ul
+    {
+   display: block;
+   margin: 1.25vh;
+    }
+    .menu-bar ul li:hover .members ul li
+    {
+        width: 20vh;
+        padding: 1.25vh;
+        border-bottom: 0.125vh dotted white;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+        .menu-bar ul li:hover .members ul li:last-child
+        {
+            border-bottom: none;
+        }
+
+        h1
+        {
+            font-size: 10vh;
+            text-align: center;
+            padding-top: 6cm;
+        }
+
+       #text
+        {
+            font-size: 10vh;
+            text-align: center;
+            padding-top: 6cm;
+
+        }
+        #dis{
+            border: 0.125vh solid black;
+            align-items: center;
+            padding: 0.625vh;
+
+        }
+
+        #description
+        {
+            font-size: 4vh;
+            border: 1px solid black;
+            margin: auto;
+            max-width: 100vh;
+    
+          
+
+        }
+      
+  
+    .moretext
+    {
+        display: none;
+    }
+    .read-more-btn
+    {
+        margin-top: 0.875vh;
+      padding: 2vh 7.5vh;
+      margin-left: 75vh;
+      background-color: #d051c8;
+      border-radius: 1vh;
+      outline: none;
+      font-size: 3.75vh;
+      cursor: pointer;
+    }
+    .text.show-more .moretext{
+        display: inline;
+
+    }
+    .text.show-more .dots
+    {
+        display: none;
+    }
+    table,th,td
+    {
+        font-size: 3.3vh;
+        width: 80vh;
+        height: 5vh;
+        text-align: center;
+        border: 0.25vh solid black;
+        border-collapse: collapse;
+    }
+    .cv
+    {
+        font-size: 2.4vh;
+        background-color: #d051c8;
+        border-radius: 1vh;
+    }
+    .cv:hover
+    {
+        font-size: 2.5vh;
+        background-color: #d051c8;
+    }
+    .contact
+    {
+        font-size: 2.5vh;
+        padding-top: 4cm;
+        margin-left: 80vh;
+    }
